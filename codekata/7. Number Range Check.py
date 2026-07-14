@@ -1,11 +1,9 @@
-userInput = input()
-userInput2 = input()
+N = int(input())
+L,R = map(int,input().split())
 
-input1,input2 = userInput2.split()
+#range_list = range(int(L),int(R)+1)
 
-range_list= range(int(input1),int(input2))
-
-if int(userInput) in range_list:
-    print("yes")
+if L<N<R:
+  print('yes')
 else:
-    print("no")
+  print('no')

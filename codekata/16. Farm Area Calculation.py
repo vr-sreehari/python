@@ -1,3 +1,9 @@
-userInput1,userInput2 = map(float,input().split())
+L,B = map(float,input().split())
 
-print(format(userInput1*userInput2,".5f"))
+area = L*B
+
+area = int(area*100000)/100000
+
+print(f"{area:.5f}")
+
+#print(f"{userInput1*userInput2:.5f}")
