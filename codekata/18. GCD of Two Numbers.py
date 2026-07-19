@@ -7,6 +7,3 @@ else:
     while userInput2!=0:
         userInput1,userInput2=userInput2,userInput1%userInput2
     print(abs(userInput1))
-
-
-
